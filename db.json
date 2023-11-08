@@ -1,0 +1,68 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "john_doe",
+            "email": "john_doe@example.com"
+        },
+        {
+            "id": 2,
+            "username": "jane_doe",
+            "email": "jane_doe@example.com"
+        }
+    ],
+    "mitra": [
+        {
+            "id": "MTR1001",
+            "nama_mitra": "PT MITRA 001",
+            "id_user": 1
+        },
+        {
+            "id": "MTR1002",
+            "nama_mitra": "PT MITRA 002",
+            "id_user": 1
+        },
+        {
+            "id": "MTR1003",
+            "nama_mitra": "PT MITRA 003",
+            "id_user": 2
+        },
+        {
+            "id": "MTR1004",
+            "nama_mitra": "PT MITRA 004",
+            "id_user": 2
+        },
+        {
+            "id": "MTR1005",
+            "nama_mitra": "PT MITRA 005",
+            "id_user": 2
+        }
+    ],
+    "layanan": [
+        {
+            "id": "LYN0001",
+            "id_mitra": "MTR1001",
+            "tipe": "air",
+            "kode": "ABC-00412321",
+            "tanggal": "2023-11-20",
+            "status": "aktif"
+        },
+        {
+            "id": "LYN0002",
+            "id_mitra": "MTR1002",
+            "tipe": "air",
+            "kode": "ABC-12312132",
+            "tanggal": "2023-11-20",
+            "status": "noaktif"
+        }
+    ],
+    "tagihan": [
+        {
+            "id": "INV-0001",
+            "id_layanan": "LYN001",
+            "total_bayar": 5000000,
+            "tgl_invoice": "2023-09-22",
+            "status": "unpaid"
+        }
+    ]
+}
