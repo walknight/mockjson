@@ -1,4 +1,17 @@
 {
+    "login": {
+        "token": "eyJraWQiOiJkZWZhdWx0IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIxIiwibmFtZSI6IkpvaG4gRG9lIn0.ZYeAVVK8hYHu1PE6knjsoyi2hYJRUnGk4a1h-cKdT17DmspsVt5qoWqecGqW9PsXQ9HOhfm9dJgQzn_a_dxHDX094uKRjQbKFspDsDQz8YP5dhy38iwagTjHh3O28ZcDxQFbr-aZXmAi6lLmbwagmFTzwNeQkrQwMNrVP1K_E3RNr7l_Kgl1bQc0JthhigdhdN6UOhxdNw-KMEPPd9rX2QRqqUouNCkCsgDaAQjxqeYLcP-UHRtb3n1UiAgYdhYZVwVHIGLznfo0cOp73SbshXEbSxRRBCTXrN5ozWZGkCgOGFIGwF7NSb2Jo15HmdZG9-q9v4XZpdjBdWz6f4etrfwVmYo59lNETN0-SSXNu3suYmb8bZLzgzU9MrcTC65TjTz5PS6RaepHbnSfOleWKT8uFLWLqG0SO_dXSx-kJDxZGPudpk9mlophQZCw6DIKLIdylcOxq8eixnRh2ZSzxIYB-6ddx0T3QAVQAEyme4gT-TOKa_BLYI-psngAH60NDUuff_gDdSA0Pb-ilizC4YwV0O8BWP296-uJKB9A0ezVuRDtt_0wiXctS2t76sDlJe8G9-HLionb-j7yfHDeRXr1sJPLnXaWlEmGfZjC8Xd6RwmlxwvL_OrA7EycGRKAD3E20jJiUIUeTGwHovoum1p4JQsnvWNbllYPbZWNMEQ",
+        "user": {
+            "id": 1,
+            "username": "john_doe",
+            "email": "john_doe@example.com"
+        }
+    },
+    "register": {
+        "user_id": 1,
+        "username": "john_doe",
+        "email": "john_doe@example.com"
+    },
     "users": [
         {
             "id": 1,
