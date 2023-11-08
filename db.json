@@ -61,7 +61,28 @@
             "id": "INV-0001",
             "id_layanan": "LYN001",
             "total_bayar": 5000000,
-            "tgl_invoice": "2023-09-22",
+            "tgl_invoice": "2023-11-01",
+            "status": "unpaid"
+        },
+        {
+            "id": "INV-0002",
+            "id_layanan": "LYN001",
+            "total_bayar": 5000000,
+            "tgl_invoice": "2023-10-01",
+            "status": "paid"
+        },
+        {
+            "id": "INV-0003",
+            "id_layanan": "LYN001",
+            "total_bayar": 5000000,
+            "tgl_invoice": "2023-09-01",
+            "status": "paid"
+        },
+        {
+            "id": "INV-0004",
+            "id_layanan": "LYN0002",
+            "total_bayar": 5000000,
+            "tgl_invoice": "2023-11-01",
             "status": "unpaid"
         }
     ]
