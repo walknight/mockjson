@@ -7,6 +7,10 @@
             "email": "john_doe@example.com"
         }
     },
+    "test":{
+        "id":"test",
+        "name": "test name"
+    },
     "register": {
         "user_id": 1,
         "username": "john_doe",
