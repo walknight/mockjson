@@ -17,13 +17,13 @@
     "partnerList": [
         {
             "id": 321,
-                "user_id": 1,
+            "userId": 1,
             "name": "Mitra Sejati",
             "address": "Jakarta Pusat"
         },
         {
             "id": 231,
-            "user_id": 1,
+            "userId": 1,
             "name": "Kawan Lama",
             "address": "Jakarta Timur"
         }
