@@ -1,20 +1,20 @@
 {
-    "api/v1/auth/login": {
+    "userLogin": {
         "code": "200",
         "message": "login berhasil",
         "content": {
             "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDQwOTg1NzksImZpcnN0TmFtZSI6IlpldXMiLCJsYXN0TmFtZSI6eyJTdHJpbmciOiIiLCJWYWxpZCI6ZmFsc2V9LCJzdGF0dXMiOjEsInVzZXJuYW1lIjoiemV1cyJ9.E7_HyGvhC4nGwysSbe0JeomMxhBUuJchn8qB7wwgC8k"
         }
     },
-    "api/v1/user/register": {
+    "userRegister": {
         "code": "200",
         "message": "register user berhasil"
     },
-    "api/v1/user/resend-activation": {
+    "resendActivation": {
         "code": "200",
         "message": "aktifasi kode telah berhasil dikirim"
     },
-    "api/v1/partner/list": [
+    "partnerList": [
         {
             "id": 321,
                 "user_id": 1,
@@ -28,7 +28,7 @@
             "address": "Jakarta Timur"
         }
     ],
-    "api/v1/bill/list": [
+    "billList": [
         {
             "id": "INV-0001",
             "id_layanan": "LYN001",
