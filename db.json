@@ -1,75 +1,34 @@
 {
-    "login": {
-        "token": "eyJraWQiOiJkZWZhdWx0IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIxIiwibmFtZSI6IkpvaG4gRG9lIn0.ZYeAVVK8hYHu1PE6knjsoyi2hYJRUnGk4a1h-cKdT17DmspsVt5qoWqecGqW9PsXQ9HOhfm9dJgQzn_a_dxHDX094uKRjQbKFspDsDQz8YP5dhy38iwagTjHh3O28ZcDxQFbr-aZXmAi6lLmbwagmFTzwNeQkrQwMNrVP1K_E3RNr7l_Kgl1bQc0JthhigdhdN6UOhxdNw-KMEPPd9rX2QRqqUouNCkCsgDaAQjxqeYLcP-UHRtb3n1UiAgYdhYZVwVHIGLznfo0cOp73SbshXEbSxRRBCTXrN5ozWZGkCgOGFIGwF7NSb2Jo15HmdZG9-q9v4XZpdjBdWz6f4etrfwVmYo59lNETN0-SSXNu3suYmb8bZLzgzU9MrcTC65TjTz5PS6RaepHbnSfOleWKT8uFLWLqG0SO_dXSx-kJDxZGPudpk9mlophQZCw6DIKLIdylcOxq8eixnRh2ZSzxIYB-6ddx0T3QAVQAEyme4gT-TOKa_BLYI-psngAH60NDUuff_gDdSA0Pb-ilizC4YwV0O8BWP296-uJKB9A0ezVuRDtt_0wiXctS2t76sDlJe8G9-HLionb-j7yfHDeRXr1sJPLnXaWlEmGfZjC8Xd6RwmlxwvL_OrA7EycGRKAD3E20jJiUIUeTGwHovoum1p4JQsnvWNbllYPbZWNMEQ",
-        "user": {
-            "id": 1,
-            "username": "john_doe",
-            "email": "john_doe@example.com"
+    "api/v1/auth/login": {
+        "code": "200",
+        "message": "login berhasil",
+        "content": {
+            "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDQwOTg1NzksImZpcnN0TmFtZSI6IlpldXMiLCJsYXN0TmFtZSI6eyJTdHJpbmciOiIiLCJWYWxpZCI6ZmFsc2V9LCJzdGF0dXMiOjEsInVzZXJuYW1lIjoiemV1cyJ9.E7_HyGvhC4nGwysSbe0JeomMxhBUuJchn8qB7wwgC8k"
         }
     },
-    "users": [
+    "api/v1/user/register": {
+        "code": "200",
+        "message": "register user berhasil"
+    },
+    "api/v1/user/resend-activation": {
+        "code": "200",
+        "message": "aktifasi kode telah berhasil dikirim"
+    },
+    "api/v1/partner/list": [
         {
-            "id": 1,
-            "username": "john_doe",
-            "email": "john_doe@example.com"
+            "id": 321,
+                "user_id": 1,
+            "name": "Mitra Sejati",
+            "address": "Jakarta Pusat"
         },
         {
-            "id": 2,
-            "username": "jane_doe",
-            "email": "jane_doe@example.com"
-        },
-        {
-            "id": 3,
-            "username": "jojo",
-            "email": "jojo@example.com"
+            "id": 231,
+            "user_id": 1,
+            "name": "Kawan Lama",
+            "address": "Jakarta Timur"
         }
     ],
-    "mitra": [
-        {
-            "id": "MTR1001",
-            "nama_mitra": "PT MITRA 001",
-            "id_user": 1
-        },
-        {
-            "id": "MTR1002",
-            "nama_mitra": "PT MITRA 002",
-            "id_user": 1
-        },
-        {
-            "id": "MTR1003",
-            "nama_mitra": "PT MITRA 003",
-            "id_user": 2
-        },
-        {
-            "id": "MTR1004",
-            "nama_mitra": "PT MITRA 004",
-            "id_user": 2
-        },
-        {
-            "id": "MTR1005",
-            "nama_mitra": "PT MITRA 005",
-            "id_user": 2
-        }
-    ],
-    "layanan": [
-        {
-            "id": "LYN0001",
-            "id_mitra": "MTR1001",
-            "tipe": "air",
-            "kode": "ABC-00412321",
-            "tanggal": "2023-11-20",
-            "status": "aktif"
-        },
-        {
-            "id": "LYN0002",
-            "id_mitra": "MTR1002",
-            "tipe": "air",
-            "kode": "ABC-12312132",
-            "tanggal": "2023-11-20",
-            "status": "noaktif"
-        }
-    ],
-    "tagihan": [
+    "api/v1/bill/list": [
         {
             "id": "INV-0001",
             "id_layanan": "LYN001",
